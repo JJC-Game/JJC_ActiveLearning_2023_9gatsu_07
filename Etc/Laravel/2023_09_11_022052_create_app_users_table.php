@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('app users', function (Blueprint $table) {
+        Schema::create('app_users', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->integer('gacha_point');
